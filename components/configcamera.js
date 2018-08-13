@@ -6,15 +6,6 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 import { RNS3 } from 'react-native-aws3';
 import Amplify, { API, Storage } from 'aws-amplify';
 
-const options = {
-  keyPrefix: "uploads/",
-  bucket: "mirrormediacontent1",
-  region: "us-east-1",
-  accessKey: "AKIAIXVHTM7IPFBNTNMA",
-  secretKey: "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",
-  successActionStatus: 201,
-  contentType: "image/jpeg"
-}
 
 class ConfigCamera extends Component {
 

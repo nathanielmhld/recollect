@@ -7,21 +7,6 @@ import Amplify, { API, Storage } from 'aws-amplify';
 import aws_exports from './../aws-exports';
 import { RNS3 } from 'react-native-aws3';
 
-//import RNFetchBlob from 'react-native-fetch-blob';
-
-
-const options = {
-  keyPrefix: "media/",
-  bucket: "media",
-  region: "us-east-1",
-  accessKey: "AKIAJLAQBY76ZNJM2I7Q",
-  secretKey: "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",
-  successActionStatus: 201,
-  contentType: "image/jpeg"
-}
-
-
-
 class CameraComponent extends Component{
 	constructor(props) {
     super(props);
